@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    grid-column: 1/4;
+    background-color: #CFD3CE;
+   
+}
+aside{
+    grid-column: 4/5;
+    background-color:#34626C;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:#C6B497;
+}
+
+header{
+    background-color:#34626C;
+    width:1000px ;
+    margin: 30px auto;
+}
+header h1{
+    text-align: center;
+    color: white;
+    
+}
+nav{
+    background-color:#839B97;
+    width: 1350px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+  
+
+}
+
+footer{
+    background-color: #C6B497;
+    
+}
+
+
+a{
+    text-decoration: none;
+    
+    color: white;
+   
+}
+
+.menu >li>a:hover{
+   color:black;
+   font-weight: bold;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu{
+    list-style: none;
+}
+.menu>li{
+    display: inline-block;
+    position: relative;
+}
+.subtemas {
+   
+    position: absolute;
+    visibility: hidden;
+}
+.subrecursos{
+    position: absolute;
+    visibility: hidden;
+   margin-left: 55px;
+}
+.subaprendizaje{
+    position: absolute;
+    visibility: hidden;
+
+}
+.menu >li >a{
+    display: block;
+    padding: 10px 80px;
+   font-size: 25px;
+}
+.menu li:hover .subtemas{
+    display: block;
+   visibility: visible;
+    background:#839B97  ;
+}
+.subtemas li a{
+    font-size: 20px;
+    padding: 15px 35px;
+}
+.subtemas li a:hover{
+    color: black;
+    font-weight: bold;
+    padding-right: 15px;
+}
+.subrecursos li a{
+    font-size: 20px;
+    padding: 15px 35px; 
+   
+     
+}
+ .menu li:hover .subrecursos{
+     visibility: visible;
+     display: block;
+     background:#839B97 ;
+ }
+ .subrecursos li  a:hover{
+    color: black;
+    font-weight: bold;
+    padding-right: 15px;
+
+}
+.subaprendizaje li a{
+    font-size: 20px;
+    padding: 15px 35px; 
+}
+
+.subaprendizaje li a:hover{
+    color: black;
+    font-weight: bold;
+    padding-right: 15px;  
+}
+.menu li:hover .subaprendizaje{
+    visibility: visible;
+     display: block;
+     background:#839B97 ;
+    margin-left: 55px;
+ }
+section article h2{
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-top:10px ;
+}
+section article p{
+    padding-left: 20px;
+}
+#imginicio{
+    float: left;
+    border-radius: 10%;
+    width: 500px;
+    height: 350px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#parinicio{
+    padding-top: 80px;
+}
+
+footer h3{
+    padding-left: 30px;
+}
+
+#imgetiqueta{
+    float: left;
+    border-radius: 10%;
+    width: 500px;
+    height: 350px;
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+
+#paretiqueta{
+    padding-top: 30px;
+ 
+}
+
+.imgatributo{
+    float: left;
+    border-radius: 10%;
+    width: 500px;
+    height: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#par1atributo{
+    text-align: justify;
+    margin-right: 15px;
+}
+
+#par2atributo{
+    padding-top: 90px;
+}
+
+#videoatributo{
+    margin-left: 200px;
+    width: 700px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#videoetiqueta{
+    margin-left: 200px;
+    width: 700px;
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#fotosilvio{
+    float: right;
+    border-radius: 10%;
+    width: 500px;
+    height: 350px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+   
+}
+#parautor{
+    padding-left: 95px;
+    padding-top: 50px;
+    font-size: large;
+}
+
