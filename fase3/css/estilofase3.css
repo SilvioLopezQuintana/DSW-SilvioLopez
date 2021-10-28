@@ -30,18 +30,28 @@ header h1{
 }
 nav{
     background-color:#839B97;
-    width: 1350px;
-    margin-left: 100px;
+    width: 1400px;
+    margin-left: 80px;
     margin-bottom: 50px;
-  
-
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
+#logo{
+    width: 50px;
+   margin-top: 10px;
+   margin-left: 23px;
+   border-radius: 20%;
+}
 footer{
     background-color: #C6B497;
+
     
 }
-
+footer h3{
+    text-align:center;
+}
 
 a{
     text-decoration: none;
@@ -153,9 +163,6 @@ section article p{
     padding-top: 80px;
 }
 
-footer h3{
-    padding-left: 30px;
-}
 
 #imgetiqueta{
     float: left;
